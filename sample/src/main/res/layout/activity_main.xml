@@ -16,8 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
             android:text="Top button" />
 
         <Button
@@ -34,8 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="20dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
             android:text="Facebook" />
 
     </FrameLayout>
@@ -59,9 +59,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="20dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
             android:text="Crypto" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/fb_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@android:color/background_light"
+            android:button="@drawable/ic_like_gray"
+            android:gravity="center_vertical"
+            android:text="Like"
+            android:textAllCaps="false"
+            android:textColor="@color/light_gray" />
 
     </FrameLayout>
 
